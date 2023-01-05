@@ -18,10 +18,6 @@ together.
 
 ## Development
 
-> Due to some changes with the fetch API in Node v18 and [sql.js not handling those changes](https://github.com/sql-js/sql.js/issues/517), 
-> **please use Node v17**.  
-> Install and switch between multiple node versions with [nvm](https://nvm.sh).
-
 We make use of [NPM workspaces](https://docs.npmjs.com/cli/v8/using-npm/workspaces) to simplify development in the
 monorepo. To get started developing locally, simply clone this repository run the following commands...
 
