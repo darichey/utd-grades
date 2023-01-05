@@ -4,7 +4,7 @@ import {
   BarElement,
   CategoryScale,
   Chart as ChartJS,
-  ChartOptions,
+  type ChartOptions,
   LinearScale,
   Tooltip,
 } from "chart.js";

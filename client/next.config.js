@@ -8,6 +8,7 @@ module.exports = {
   compiler: {
     styledComponents: true,
   },
+  output: "export",
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.plugins.push(

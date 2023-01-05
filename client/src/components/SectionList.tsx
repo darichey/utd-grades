@@ -1,7 +1,7 @@
 import { FrownTwoTone, UserOutlined } from "@ant-design/icons";
 import type { Grades } from "@utd-grades/db";
 import { List, Popover as AntPopover, Spin } from "antd";
-import React, { ReactNode, useEffect, useState } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import styled, { css } from "styled-components";
 // FIXME (median)
 // import { getLetterGrade, getLetterGradeColor } from "../utils";

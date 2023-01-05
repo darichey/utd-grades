@@ -1,5 +1,5 @@
 import { GradesDatabase } from "@utd-grades/db";
-import { useQuery, UseQueryResult } from "react-query";
+import { useQuery, type UseQueryResult } from "react-query";
 import type { InitSqlJsStatic, SqlJsStatic } from "sql.js";
 
 export function useDb(): UseQueryResult<GradesDatabase, unknown> {

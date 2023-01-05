@@ -11,9 +11,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "csv-parse": "^5.0.4"
+    "csv-parse": "^5.3.10",
+    "npm-check-updates": "^16.10.12"
   },
   "devDependencies": {
-    "@types/node": "^17.0.23"
+    "@types/node": "^20.1.4"
   }
 }

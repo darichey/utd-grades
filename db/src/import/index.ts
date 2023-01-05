@@ -1,7 +1,7 @@
 import * as csv from "csv-parse/sync";
 import * as fs from "fs/promises";
 import * as path from "path";
-import initSqlJs, { Database } from "sql.js";
+import initSqlJs, { type Database } from "sql.js";
 import type { GradesRow } from "../types/GradesRow";
 
 function reorderName(name: string): string {
