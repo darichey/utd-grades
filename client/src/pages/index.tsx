@@ -1,6 +1,5 @@
 import { Col } from "antd";
 import Router from "next/router";
-import React from "react";
 import styled from "styled-components";
 import FadeIn from "../components/animations/FadeIn";
 import Core from "../components/Core";

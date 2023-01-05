@@ -1,5 +1,4 @@
 import type { Grades } from "@utd-grades/db";
-import React from "react";
 import styled from "styled-components";
 import SlideUp from "./animations/SlideUp";
 

@@ -1,6 +1,5 @@
 import type { Grades } from "@utd-grades/db";
 import { Spin } from "antd";
-import React from "react";
 import styled from "styled-components";
 import SectionContent from "./SectionContent";
 

@@ -1,6 +1,6 @@
 import { Col, Row } from "antd";
 import type { NextRouter } from "next/router";
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useQuery } from "react-query";
 import { animateScroll as scroll } from "react-scroll";
 import styled from "styled-components";

@@ -65,7 +65,9 @@ export class GradesDatabase {
     const strings: string[] = [];
 
     const stmt = this.db.prepare(
-      `SELECT string FROM autocomplete_strings WHERE ${createWhereString(partialQuery)} ORDER BY priority`
+      `SELECT string FROM autocomplete_strings WHERE ${createWhereString(
+        partialQuery
+      )} ORDER BY priority`
     );
 
     while (stmt.step()) {

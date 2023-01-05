@@ -1,7 +1,6 @@
 import { HomeOutlined } from "@ant-design/icons";
 import { Button, Row } from "antd";
 import Router from "next/router";
-import React from "react";
 import styled from "styled-components";
 
 const Menu = styled(Row)`

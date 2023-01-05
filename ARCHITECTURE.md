@@ -13,17 +13,17 @@ the browser!
 
 This approach has a number of advantages:
 
-  1. Hosting is free! We can use GitHub Pages to host the app completely for free.
-  2. Simplifies hosting and deployment. Deploying a static website is very easy.
-  3. Fewer moving parts. There's no need to worry about data conversion between the frontend and backend, for example.
-  4. Speed. sql.js is _very_ fast, making searches nearly instant.
+1. Hosting is free! We can use GitHub Pages to host the app completely for free.
+2. Simplifies hosting and deployment. Deploying a static website is very easy.
+3. Fewer moving parts. There's no need to worry about data conversion between the frontend and backend, for example.
+4. Speed. sql.js is _very_ fast, making searches nearly instant.
 
 ...and disadvantages:
 
-  1. _Much_ larger bundle size. We gain about 2.5mb by bundling sql.js and a grades database with about 5 years of data.
-     This puts the total bundle size at aorund 5mb (before compression). This is _not_ insignificant and we have to be
-     concious about adding more data.
-  2. Inherently limits the scope of the project since we have to be careful abot how much data we add.
+1. _Much_ larger bundle size. We gain about 2.5mb by bundling sql.js and a grades database with about 5 years of data.
+   This puts the total bundle size at aorund 5mb (before compression). This is _not_ insignificant and we have to be
+   concious about adding more data.
+2. Inherently limits the scope of the project since we have to be careful abot how much data we add.
 
 ## Monorepo
 
