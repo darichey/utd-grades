@@ -128,7 +128,3 @@ export function splitName(name: string): [first: string, last: string] {
   const space = name.lastIndexOf(" ");
   return [name.substring(0, space), name.substring(space + 1)];
 }
-
-export function zip<A, B>(as: A[], bs: B[]): [A, B][] {
-  return as.map((a, i) => [a, bs[i]!]);
-}
