@@ -5,7 +5,7 @@ type Modify<T, R> = Omit<T, keyof R> & R;
 /**
  * A higher-level representation of a GradesRow where the string IDs have been replaced by the actual strings in the strings table.
  *
- * It also has extra useful data like totalStudents and average.
+ * It also has extra useful data like totalStudents.
  */
 export type Grades = Modify<
   GradesRow,
@@ -21,7 +21,6 @@ export type Grades = Modify<
     instructor5: Instructor | null;
     instructor6: Instructor | null;
     totalStudents: number;
-    average: number;
   }
 >;
 

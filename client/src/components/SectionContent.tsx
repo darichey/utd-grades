@@ -4,9 +4,9 @@ import {
   BarElement,
   CategoryScale,
   Chart as ChartJS,
-  type ChartOptions,
   LinearScale,
   Tooltip,
+  type ChartOptions,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
 import styled from "styled-components";
@@ -164,9 +164,6 @@ export default function SectionContent({
     },
   };
 
-  // FIXME (median)
-  // const averageLetter = getLetterGrade(section.average);
-
   return (
     <Container>
       <Stack>
@@ -182,10 +179,6 @@ export default function SectionContent({
         <Stat>
           Total Students <span style={{ color: "#333333" }}>{section.totalStudents}</span>
         </Stat>
-        {/* FIXME (median)
-        <Stat> 
-          Average Grade <span style={{ color: "#333333" }}>{averageLetter}</span>
-        </Stat> */}
       </Stack>
 
       <Row>
