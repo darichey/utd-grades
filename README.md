@@ -32,7 +32,7 @@ The project builds to a completely static web bundle, making it deployable prett
 ### Testing deployment locally
 
 You can easily test the deployment locally using a package like `http-server`. After running `npm run build`, run
-`npx http-server out/client`.
+`npx http-server client/out`.
 
 ### Deploy to GitHub Pages
 
